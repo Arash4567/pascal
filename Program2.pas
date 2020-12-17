@@ -1,0 +1,32 @@
+program qoldiqli_bolish_va_butun_b;
+var a,b:integer;
+var f:word;
+var d,c:real;
+begin
+     //write('a va b sonlarni kiriting:');
+     //readln(a,b);
+     //writeln('Qoldiq = ', a mod b);
+     //writeln('Butun qismi = ', a div b);
+     //writeln(a,'/',b,'=',b,'*',a div b,'+',a mod b);
+     readln(d,c);
+     //writeln('Kasr sonni yaxlitlash',round(d/c));
+     writeln('Kasr sonning kasr qismi',frac(d/c));
+     //33writeln('Kasr sonning butun qismi',int(d/c));
+     //writeln('Sonning moduli',abs(c - d));
+     //writeln('Sonni 2-darajali ildizdan chiqarish:',sqrt(d));
+     //writeln(d,'ning 2 darajasi = ', sqr(d));
+     //writeln('pi son = ', pi);
+     //writeln('e = ',exp(1));
+     //writeln('sin',d,' = ', sin(d));
+     //writeln('cos',d,' = ', cos(d));
+     //writeln('tan',d,' = ', sin(d)/cos(d));
+     //writeln('arctan',d,' = ', arctan(d));
+     //readln(f);
+     //writeln('Random = ',random(f));
+     //writeln('haqiqiy sonning butun qismi = ', trunc(1.5454545646));
+     //writeln('toq bo`lsa rost, juft bo`lsa yolg`on qiymat chiqaradi ',odd(3));
+     //writeln('Adres bo`yicha qiymat olamiz ASCII jadvalidan ',chr(63));
+     //f:=f-1;
+     //writeln('sonni 1 taga kamaytirish ',f);
+     //writeln('ASCII jadvalidan elementning adresini olamiz ',ord('?'));
+end.
